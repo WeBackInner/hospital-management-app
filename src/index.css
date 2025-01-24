@@ -1,0 +1,132 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
+  color: #212121;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 1px solid #b2ebf2;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00838f;
+}
+
+nav {
+  background-color: #00838f;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #b2ebf2;
+  text-decoration: none;
+}
+
+.form-container {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #00695c;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 16px);
+  padding: 12px;
+  border: 1px solid #b2ebf2;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #00acc1;
+  outline: none;
+}
+
+button {
+  background-color: #00838f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #00695c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  border: 1px solid #b2ebf2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 1px solid #b2ebf2;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0f7fa;
+  color: #00695c;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.error {
+  color: #d32f2f;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+}
