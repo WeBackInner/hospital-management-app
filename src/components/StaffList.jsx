@@ -20,7 +20,7 @@ function StaffList() {
   return (
     <div>
       <h2>Staff List</h2>
-      <Link to="/add-staff">Add Staff</Link>
+      <Link to="/add-staff">Add Staff + </Link>
       <table>
         <thead>
           <tr>
