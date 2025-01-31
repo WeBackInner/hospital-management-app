@@ -10,7 +10,7 @@ import EditAsset from './components/EditAsset';
 function App() {
   return (
     <div className="container">
-      <h1>Hospital Management System</h1>
+      <h1>Hospital Management System (WeBackIn)</h1>
       <nav>
         <Link to="/">Staff</Link>
         <Link to="/assets">Assets</Link>
